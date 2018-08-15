@@ -1,7 +1,7 @@
-Column
+Chart
 ======
 
 .. toctree::
-   :caption: Column:
+   :caption: Chart:
 
    AreaChart
