@@ -6,9 +6,5 @@ Calculated Column
   :align: center
   :alt: Boolean Column Report
 
-
- - :download: `PDF <../booleancolumnreport.pdf>`
-
-
 .. literalinclude:: CalculatedColumnReport.java
    :linenos:
