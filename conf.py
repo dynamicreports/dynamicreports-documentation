@@ -178,5 +178,6 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
+highlight_language = 'java'
 
 
