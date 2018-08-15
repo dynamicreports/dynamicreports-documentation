@@ -1,4 +1,4 @@
-Boolean Column
+Calculated Column
 **************
 
 .. image:: booleancolumnreport.png
@@ -10,5 +10,5 @@ Boolean Column
  - :download: `PDF <../booleancolumnreport.pdf>`
 
 
-.. literalinclude:: BooleanColumnReport.java
+.. literalinclude:: CalculatedColumnReport.java
    :linenos:

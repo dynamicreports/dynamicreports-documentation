@@ -11,7 +11,7 @@ Welcome to dynamicreports's documentation!
    :caption: Contents:
 
    examples/BooleanColumn
-
+   examples/CalculatedColumn
 
 
 Indices and tables
