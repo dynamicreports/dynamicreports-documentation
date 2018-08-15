@@ -10,6 +10,7 @@ Welcome to dynamicreports's documentation!
    :maxdepth: 3
    :caption: Examples:
 
+   examples/chart/index
    examples/column/index
 
 
