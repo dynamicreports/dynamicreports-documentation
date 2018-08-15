@@ -10,6 +10,8 @@ Welcome to dynamicreports's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   examples/BooleanColumn
+
 
 
 Indices and tables
