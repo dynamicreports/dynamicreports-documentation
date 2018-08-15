@@ -1,10 +1,10 @@
 Column Detect Data Type
 **************
 
-.. image:: columndetectdatatypereport.png
+.. image:: images/columndetectdatatypereport.png
   :width: 250
   :align: center
   :alt: Column Detect Data Type Report
 
-.. literalinclude:: ColumnDetectDataTypeReport.java
+.. literalinclude:: java/ColumnDetectDataTypeReport.java
    :linenos:

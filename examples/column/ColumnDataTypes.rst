@@ -1,10 +1,10 @@
 Column Data Types
 **************
 
-.. image:: columndatatypesreport.png
+.. image:: images/columndatatypesreport.png
   :width: 250
   :align: center
   :alt: Column Data Types Report
 
-.. literalinclude:: ColumnDataTypesReport.java
+.. literalinclude:: java/ColumnDataTypesReport.java
    :linenos:
