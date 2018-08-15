@@ -6,3 +6,5 @@ Column
 
    BooleanColumn
    CalculatedColumn
+   ColumnDataTypes
+   ColumnDetectDataType
