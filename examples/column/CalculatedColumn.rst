@@ -1,10 +1,10 @@
 Calculated Column
 **************
 
-.. image:: booleancolumnreport.png
+.. image:: calculatedcolumnreport.png
   :width: 250
   :align: center
-  :alt: Boolean Column Report
+  :alt: Calculated Column Report
 
 .. literalinclude:: CalculatedColumnReport.java
    :linenos:

@@ -7,11 +7,10 @@ Welcome to dynamicreports's documentation!
 ==========================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
+   :caption: Examples:
 
-   examples/BooleanColumn
-   examples/CalculatedColumn
+   examples/column/index
 
 
 Indices and tables
