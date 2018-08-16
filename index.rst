@@ -7,6 +7,11 @@ Welcome to dynamicreports's documentation!
 ==========================================
 
 .. toctree::
+   :caption: Documentaion:
+
+  GettingStarted
+
+.. toctree::
    :maxdepth: 3
    :caption: Examples:
 
