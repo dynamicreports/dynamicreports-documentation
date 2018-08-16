@@ -6,10 +6,13 @@
 Welcome to dynamicreports's documentation!
 ==========================================
 
+Documentation
+-------------
 .. toctree::
-   :caption: Documentaion:
+   :maxdepth: 1
 
-  GettingStarted
+
+   GettingStarted
 
 .. toctree::
    :maxdepth: 3
