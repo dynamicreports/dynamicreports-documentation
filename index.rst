@@ -18,6 +18,7 @@ Documentation
    :maxdepth: 3
    :caption: Examples:
 
+   examples/adhoc/index
    examples/chart/index
    examples/column/index
 
