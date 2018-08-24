@@ -20,6 +20,7 @@ Documentation
 
    examples/adhoc/index
    examples/chart/index
+   examples/chartcustomization/index
    examples/column/index
 
 
