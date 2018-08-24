@@ -25,6 +25,7 @@ Documentation
    examples/columngrid/index
    examples/component/index
    examples/crosstab/index
+   examples/datasource/index
 
 
 Indices and tables
