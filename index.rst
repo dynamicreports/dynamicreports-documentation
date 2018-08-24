@@ -23,6 +23,7 @@ Documentation
    examples/chartcustomization/index
    examples/column/index
    examples/columngrid/index
+   examples/component/index
 
 
 Indices and tables
