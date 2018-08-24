@@ -1,7 +1,8 @@
+*****************
 Calculated Column
-**************
+*****************
 
-.. image:: images/calculatedcolumnreport.png
+.. image:: images/CalculatedColumnReport.png
   :width: 250
   :align: center
   :alt: Calculated Column Report

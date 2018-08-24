@@ -1,7 +1,8 @@
+****************
 Component Column
-**************
+****************
 
-.. image:: images/componentcolumnreport.png
+.. image:: images/ComponentColumnReport.png
   :width: 250
   :align: center
   :alt: Component Column

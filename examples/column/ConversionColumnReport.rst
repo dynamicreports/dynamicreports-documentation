@@ -1,7 +1,8 @@
+*****************
 Conversion Column
-**************
+*****************
 
-.. image:: images/conversioncolumnreport.png
+.. image:: images/ConversionColumnReport.png
   :width: 250
   :align: center
   :alt: Conversion Column Report

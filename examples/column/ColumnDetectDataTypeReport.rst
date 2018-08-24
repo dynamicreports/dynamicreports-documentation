@@ -1,7 +1,8 @@
+***********************
 Column Detect Data Type
-**************
+***********************
 
-.. image:: images/columndetectdatatypereport.png
+.. image:: images/ColumnDetectDataTypeReport.png
   :width: 250
   :align: center
   :alt: Column Detect Data Type Report

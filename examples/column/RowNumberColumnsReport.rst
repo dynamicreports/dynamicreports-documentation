@@ -1,7 +1,8 @@
+******************
 Row Number Columns
-**************
+******************
 
-.. image:: images/rownumbercolumnsreport.png
+.. image:: images/RowNumberColumnsReport.png
   :width: 250
   :align: center
   :alt: Row Number Columns Report

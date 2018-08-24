@@ -1,7 +1,8 @@
+**************
 Boolean Column
 **************
 
-.. image:: images/booleancolumnreport.png
+.. image:: images/BooleanColumnReport.png
   :width: 250
   :align: center
   :alt: Boolean Column Report

@@ -1,7 +1,8 @@
+******************
 Percentage Columns
-**************
+******************
 
-.. image:: images/percentagecolumnsreport.png
+.. image:: images/PercentageColumnsReport.png
   :width: 250
   :align: center
   :alt: Percentage Columns Report

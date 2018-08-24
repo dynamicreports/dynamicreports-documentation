@@ -1,7 +1,8 @@
+*****************
 Column Data Types
-**************
+*****************
 
-.. image:: images/columndatatypesreport.png
+.. image:: images/ColumnDataTypesReport.png
   :width: 250
   :align: center
   :alt: Column Data Types Report

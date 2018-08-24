@@ -1,7 +1,8 @@
+************
 Empty Column
-**************
+************
 
-.. image:: images/emptycolumnreport.png
+.. image:: images/EmptyColumnReport.png
   :width: 250
   :align: center
   :alt: Empty Column Report
