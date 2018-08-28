@@ -27,3 +27,4 @@ Documentation
    examples/crosstab/index
    examples/datasource/index
    examples/exporter/index
+   examples/expression/index
