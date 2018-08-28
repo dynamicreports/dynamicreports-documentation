@@ -29,3 +29,5 @@ Documentation
    examples/exporter/index
    examples/expression/index
    examples/font/index
+   examples/googlechart/index
+
