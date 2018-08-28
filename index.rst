@@ -26,11 +26,4 @@ Documentation
    examples/component/index
    examples/crosstab/index
    examples/datasource/index
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   examples/exporter/index
