@@ -28,3 +28,4 @@ Documentation
    examples/datasource/index
    examples/exporter/index
    examples/expression/index
+   examples/font/index
