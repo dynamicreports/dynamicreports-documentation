@@ -32,4 +32,5 @@ Documentation
    examples/googlechart/index
    examples/group/index
    examples/miscellaneous/index
+   examples/style/index
 
