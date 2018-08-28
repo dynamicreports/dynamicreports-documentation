@@ -33,4 +33,5 @@ Documentation
    examples/group/index
    examples/miscellaneous/index
    examples/style/index
+   examples/subreport/index
 
