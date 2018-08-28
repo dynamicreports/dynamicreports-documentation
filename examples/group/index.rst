@@ -1,6 +1,6 @@
 =====
 Group
-======
+=====
 
 .. toctree::
    :hidden:
@@ -35,7 +35,6 @@ Group
 .. |pic1| image:: images/ColumnGroupReport.png
    :target: ColumnGroupReport.html
    :width: 80
-
 
 .. |pic2| image:: images/CustomGroupReport.png
    :target: CustomGroupReport.html

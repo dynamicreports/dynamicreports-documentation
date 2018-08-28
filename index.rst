@@ -31,4 +31,5 @@ Documentation
    examples/font/index
    examples/googlechart/index
    examples/group/index
+   examples/miscellaneous/index
 
