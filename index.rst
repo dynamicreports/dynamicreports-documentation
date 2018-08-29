@@ -35,6 +35,7 @@ Documentation
    examples/style/index
    examples/subreport/index
    examples/subtotal/index
+   examples/tableofcontents/index
    examples/templatedesign/index
 
 
