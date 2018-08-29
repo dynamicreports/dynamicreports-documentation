@@ -34,4 +34,5 @@ Documentation
    examples/miscellaneous/index
    examples/style/index
    examples/subreport/index
+   examples/subtotal/index
 
