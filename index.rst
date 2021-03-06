@@ -10,19 +10,31 @@ Table of Contents
 -----------------
 .. toctree::
    :maxdepth: 1
-   :caption: Documentation:
+   :caption: DynamicReports
 
    Home
    GettingStarted
-   Features
-   Configuration
-   DataSource
-   Requirements
-   Links
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Project Information
+
+   docs/Syntax
+   docs/ReportBuilder
+   docs/DataSource
+   docs/Configuration
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Project Information
+
+   project/Features
+   project/Requirements
+   project/Links
 
 .. toctree::
    :maxdepth: 3
-   :caption: Examples:
+   :caption: Examples
 
    examples/adhoc/index
    examples/chart/index
