@@ -1,25 +1,24 @@
 ===========
 Data source
 ===========
+.. |br| raw:: html
+
+    <br>
 
 The important part of reporting is the data source which fills the report design with given data. Data can be retrieved from various sources such as a database, a xml file or using an interface JRDataSource. JasperReports itself has a lot of implementations of JRDataSource interface and basically implementation of this interface by you is quite often unneeded.
 Data in reports can be additionally sorted or filtered and some components such as chart, subreport, and crosstab can have their own data source if it's needed. Please refer to the link below for examples.
 Configuration options
-
-.. |br| raw:: html
-
-    <br>
      
-= ============================================ ====================================  
+= ============================================ ====================================
 # method	                                     description
-= ============================================ ==================================== 
-
-1  setFilterExpression(DRIExpression<Boolean>   Sets a dataset filter expression.
-   filterExpression)	                         The expression must be a type of Boolean
+= ============================================ ====================================
+1 setFilterExpression(DRIExpression<Boolean>   Sets a dataset filter expression.
+  filterExpression)	                           The expression must be a type of Boolean
 2 sortBy(TextColumnBuilder<?> ...sortColumns), Adds a sort field to the dataset
   |br| sortBy(SortBuilder ...sorts),                 
   |br| addSort(SortBuilder ...sorts)	               
-= ============================================ ====================================  
+= ============================================ ====================================
+
 
 Examples
 ^^^^^^^^
@@ -40,6 +39,7 @@ Configuration options
   Connection connection), |br| 
   setDataSource(ResultSet resultSet)	
 = ============================================  ====================================  
+
 
 Examples
 ^^^^^^^^

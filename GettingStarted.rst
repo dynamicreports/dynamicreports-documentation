@@ -314,5 +314,5 @@ Step 12 : Conditional styles
                          .setDataType(currencyType)
                          .setStyle(priceStyle);
 
-Condition3 is applied only if price is greater than 200 and sets background color of a price to green.
-Condition4 is applied only if price is smaller than 20 and sets background color of a price to red.
+| Condition3 is applied only if price is greater than 200 and sets background color of a price to green.
+| Condition4 is applied only if price is smaller than 20 and sets background color of a price to red.
