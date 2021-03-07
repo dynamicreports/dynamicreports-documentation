@@ -9,9 +9,9 @@ a class name. DynamicReports provides a lot of static methods of creating
 every part of a report and therefore you can consider using a static import 
 for these methods. And DynamicReports also provides the abillity to use 
 `Method chaining <https://en.wikipedia.org/wiki/Method_chaining>`_ (also known 
-as `Fluent interface <https://en.wikipedia.org/wiki/Fluent_interface>`_). Both are useful for code 
-eadability, the ability to replace multiple calls to a class with a single one, 
-and for invoking multiple method calls.
+as `Fluent interface <https://en.wikipedia.org/wiki/Fluent_interface>`_). Both 
+are useful for code readability, the ability to replace multiple calls to a 
+class with a single one, and for invoking multiple method calls.
 Let's see in detail the difference between using and not using a static 
 import and method chaining:
 
@@ -45,9 +45,13 @@ Using a static import for DynamicReports methods and method chaining
     .setDataSource(dataSource)
     .show();
 
-As you can see, static imports and method chaining improve readability of the code but they are not mandatory. It's only up to you which code syntax you will prefer to use.
-All examples and tutorials in the documentation use static imports and method chaining to provide more readability of the code.
+As you can see, static imports and method chaining improve readability 
+of the code but they are not mandatory. It's only up to you which code 
+syntax you will prefer to use.
+
+All examples and tutorials in the documentation use static imports and 
+method chaining to provide more readability of the code.
 
 Examples
 ^^^^^^^^
-SimpleReport_ClassicSyntax, SimpleReport_Step01
+`SimpleReport_ClassicSyntax <https://web.archive.org/web/20180602170012/http://www.dynamicreports.org/examples/simplereport_classicsyntax>`_, `SimpleReport_Step01 <https://web.archive.org/web/20180602170012/http://www.dynamicreports.org/examples/simplereport_step01>`_

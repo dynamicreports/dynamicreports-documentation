@@ -15,7 +15,7 @@ In the table below, you will find a list of all available builders:
 .. |br| raw:: html
 
     <br>
-    
+
 ================== ======================================== ======================= ==================== ===========   
 Builder name	   Using a static import for DynamicReports Without a static import Using a particular 	 Description
                    |br| methods                                                     builder
@@ -51,7 +51,7 @@ CrosstabBuilders   ctab.*                                   DynamicReports.ctab.
     .setDataSource(...)
     .show();
 
-Another example: SimpleReport_Step01
+Another example: `SimpleReport_Step01 <https://web.archive.org/web/20180521090612/http://www.dynamicreports.org/examples/simplereport_step01>`_
 
 JasperConcatenatedBuilder
 -------------------------
@@ -71,4 +71,4 @@ document. Each report starts on a new page with its own page dimension.
     .concatenate(report1, report2)
     .toPdf(...)
 
-Another examples: ConcatenatedReport1, ConcatenatedReport2
+Another examples: `ConcatenatedReport1 <https://web.archive.org/web/20180521090612/http://www.dynamicreports.org/examples/concatenatedreport1>`_, `ConcatenatedReport2 <https://web.archive.org/web/20180521090612/http://www.dynamicreports.org/examples/concatenatedreport2>`_
