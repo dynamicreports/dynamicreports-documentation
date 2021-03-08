@@ -12,12 +12,12 @@ In this file you can change the default settings (default font, pattern and hori
 
     <?xml version="1.0" encoding="UTF-8"?>
     <DynamicReports>
-    <!-- DEFAULT FONT -->
-    <font fontName="SansSerif" fontSize="10" pdfFontName="Helvetica" pdfEncoding="Cp1252" pdfEmbedded="false"/>
+      <!-- DEFAULT FONT -->
+      <font fontName="SansSerif" fontSize="10" pdfFontName="Helvetica" pdfEncoding="Cp1252" pdfEmbedded="false"/>
         
-    <!-- DEFAULT DATA TYPES -->
-    <bigDecimalType pattern="#,##0.00#" horizontalAlignment="RIGHT"/>
-    <dateType pattern="MM/dd/yyyy" horizontalAlignment="RIGHT"/>
+      <!-- DEFAULT DATA TYPES -->
+      <bigDecimalType pattern="#,##0.00#" horizontalAlignment="RIGHT"/>
+      <dateType pattern="MM/dd/yyyy" horizontalAlignment="RIGHT"/>
     ... 
     </DynamicReports>
 

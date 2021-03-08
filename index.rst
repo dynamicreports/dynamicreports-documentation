@@ -22,7 +22,13 @@ Table of Contents
    docs/Syntax
    docs/ReportBuilder
    docs/DataSource
+   docs/ReportBands
+   docs/Columns
+   docs/Expression
+   docs/Fonts
+   docs/Servlets
    docs/Configuration
+   docs/ReportAdhoc
    
 .. toctree::
    :maxdepth: 2
