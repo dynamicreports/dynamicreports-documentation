@@ -1,20 +1,24 @@
 ===========
 Data source
 ===========
+.. |br| raw:: html
+
+    <br />
 
 The important part of reporting is the data source which fills the report design with given data. Data can be retrieved from various sources such as a database, a xml file or using an interface JRDataSource. JasperReports itself has a lot of implementations of JRDataSource interface and basically implementation of this interface by you is quite often unneeded.
 Data in reports can be additionally sorted or filtered and some components such as chart, subreport, and crosstab can have their own data source if it's needed. Please refer to the link below for examples.
 Configuration options
      
-= ============================================ ==========================================
-# method	                                     description
-= ============================================ ==========================================
-1 | setFilterExpression(DRIExpression<Boolean> | Sets a dataset filter expression.
-  | filterExpression)                          | The expression must be a type of Boolean
-2 | sortBy(TextColumnBuilder<?> ...sortCols),  Adds a sort field to the dataset
-  | sortBy(SortBuilder ...sorts),                 
-  | addSort(SortBuilder ...sorts)	               
-= ============================================ ==========================================
+.. list-table:: 
+   :widths: 32 38
+   :header-rows: 1
+
+   * - Method
+     - Description
+   * - setFilterExpression(DRIExpression<Boolean> |br| filterExpression)
+     - Sets a dataset filter expression. |br| The expression must be a type of Boolean
+   * - sortBy(TextColumnBuilder<?> …sortCols), |br| sortBy(SortBuilder …sorts), |br| addSort(SortBuilder …sorts)
+     - Adds a sort field to the dataset
 
 Database
 --------
@@ -23,16 +27,14 @@ In this type of data source, data are retrieved from a database. You only need a
 
 **Configuration options**
 
-= ============================================ ====================================  
-# method	                                     description
-= ============================================ ====================================  
-1 | setDataSource(String sql, Connection       Sets a database data source
-  | connection),                                     
-  | setDataSource(QueryBuilder query, 
-  | Connection connection), 
-  | setDataSource(ResultSet resultSet)	
-= ============================================ ====================================  
+.. list-table:: 
+   :widths: 32 38
+   :header-rows: 1
 
+   * - Method
+     - Description
+   * - setDataSource(String sql, Connection |br| connection), |br| setDataSource(QueryBuilder query, |br| Connection connection), |br| etDataSource(ResultSet resultSet)	
+     - Sets a database data source
 
 | **Examples**
 | Quick usage:
@@ -54,12 +56,14 @@ In this type, a JRDataSource object is expected as a data source. A good explana
 
 **Configuration options**
 
-= ============================================ ====================================  
-# method	                                     description
-= ============================================ ====================================  
-1 | setDataSource(JRDataSource dataSource),    Sets a data source object
-  | setDataSource(Collection<?> collection)	
-= ============================================ ====================================  
+.. list-table:: 
+   :widths: 32 38
+   :header-rows: 1
+
+   * - Method
+     - Description
+   * - setDataSource(JRDataSource dataSource),  |br| setDataSource(Collection<?> collection)
+     - Sets a data source object
 
 | **Examples**
 | Quick usage:
