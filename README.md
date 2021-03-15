@@ -14,6 +14,7 @@ If you like to edit the docs use the ReStructuredText markup language. Informati
 
 - https://www.sphinx-doc.org/en/stable/rest.html
 - https://docs.readthedocs.io/en/latest/guides/platform.html
+- https://sphinx-rtd-theme.readthedocs.io/
 
 Thanks!
 
