@@ -3,20 +3,44 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to dynamicreports's documentation!
+Welcome to DynamicReports's Documentation!
 ==========================================
 
-Documentation
--------------
+Table of Contents
+-----------------
 .. toctree::
    :maxdepth: 1
+   :caption: DynamicReports
 
-
+   Home
    GettingStarted
 
 .. toctree::
+   :maxdepth: 2
+   :caption: Documentation
+
+   docs/Syntax
+   docs/ReportBuilder
+   docs/DataSource
+   docs/ReportBands
+   docs/Columns
+   docs/Expression
+   docs/Fonts
+   docs/Servlets
+   docs/Configuration
+   docs/ReportAdhoc
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Project Information
+
+   project/Features
+   project/Requirements
+   project/Links
+
+.. toctree::
    :maxdepth: 3
-   :caption: Examples:
+   :caption: Examples
 
    examples/adhoc/index
    examples/chart/index
@@ -37,5 +61,3 @@ Documentation
    examples/subtotal/index
    examples/tableofcontents/index
    examples/templatedesign/index
-
-

@@ -1,6 +1,6 @@
-**********
+**************
 XY-Block Chart
-**********
+**************
 
 .. image:: images/xyblockchartreport.png
   :width: 250
