@@ -2,6 +2,12 @@
 Columns
 =======
 
+.. toctree::
+ :maxdepth: 1
+
+Overview
+--------
+
 DynamicReports has an ability to display data in a multi-column layout. There is no limit in number of columns added to the report, only keep in mind that the more columns you add to the report, the less space will be available for each column.
 All columns automatically fit the available page width.
 
@@ -12,7 +18,7 @@ The picture above shows what is a column and how it is divided.
 **Configuration options of a column title**
 
 = ============================================ ====================================
-# method	                                   description
+# method	                                     description
 = ============================================ ====================================
 1 | setTitle(String title),                     Sets the column title
   | setTitle(DRIExpression<?> titleExpression)  
@@ -31,7 +37,7 @@ The picture above shows what is a column and how it is divided.
 # method	                                     description
 = ============================================= =================================================
 1 setStyle(StyleBuilder style)                  Sets the column value style
-2 | setPrintWhenExpression(DRIExpression	    | Sets the print when expression. The expression
+2 | setPrintWhenExpression(DRIExpression	      | Sets the print when expression. The expression
   |    <Boolean> printWhenExpression)           | must be a type of Boolean and it decides
                                                 | whether or not a column value will be print
 3 | setRows(Integer rows),                      | This method is used to define the height of a

@@ -38,7 +38,7 @@ Creating a report with DynamicReports is very easy, take a look at the example b
       ...
     }
 
-See `ReportBuilder <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/ReportBuilder.html>`_ class for all available features and `JasperReportBuilder <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/jasper/builder/JasperReportBuilder.html>`_ class for all available exports and outputs.
+See `ReportBuilder <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/ReportBuilder.html>`_ class for all available features and `JasperReportBuilder <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/jasper/builder/JasperReportBuilder.html>`_ class for all available exports and outputs.
 
 *************
 Simple report
@@ -48,14 +48,14 @@ Please note that this is a tutorial example and that this tutorial doesn't descr
 
 You will learn in this section how to create a simple report step by step.
 First we need to create an empty report desing, configure it and set a datasource. Afterwards the report will be ready to export into any format.
-It's important to remember the `DynamicReports <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/DynamicReports.html>`_ class, through which you will have available most of features. The class provides methods for building a particular piece of a report.
+It's important to remember the `DynamicReports <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/DynamicReports.html>`_ class, through which you will have available most of features. The class provides methods for building a particular piece of a report.
 Let's start!
 
 
 Step 1 : Start
 ==============
 
-First define columns through `DynamicReports.col <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/column/ColumnBuilders.html>`_.column(title, field name, datatype) (the field name must match with the name of a field contained in the datasource) and pass them into the report as follows:
+First define columns through `DynamicReports.col <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/column/ColumnBuilders.html>`_.column(title, field name, datatype) (the field name must match with the name of a field contained in the datasource) and pass them into the report as follows:
 
 .. code-block:: java
    :linenos:
@@ -74,14 +74,14 @@ now define some text at the title and number of pages at the page footer as foll
    .title(cmp.text("Getting started"))//shows report title
    .pageFooter(cmp.pageXofY())//shows number of page at page footer
 
-`DynamicReports.cmp <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/component/ComponentBuilders.html>`_.text(some text) - creates a component that shows a text
-`DynamicReports.cmp <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/component/ComponentBuilders.html>`_.pageXofY() - creates a component that shows page X of Y
+`DynamicReports.cmp <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/component/ComponentBuilders.html>`_.text(some text) - creates a component that shows a text
+`DynamicReports.cmp <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/component/ComponentBuilders.html>`_.pageXofY() - creates a component that shows page X of Y
 Methods title(...) and pageFooter(...) allows to customize a particular report band by adding components to it
 
 Step 2 : Styles
 ===============
 
-Each style can have a parent style from which it will inherit its properties. Empty style can be created by `DynamicReports.stl <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/style/StyleBuilders.html>`_.style()
+Each style can have a parent style from which it will inherit its properties. Empty style can be created by `DynamicReports.stl <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/style/StyleBuilders.html>`_.style()
 
 .. code-block:: java
    :linenos:
@@ -112,14 +112,14 @@ You can very easy multiply, divide, add or subtract column of numbers by another
    TextColumnBuilder<BigDecimal> priceColumn = unitPriceColumn.multiply(quantityColumn)
                                                              .setTitle("Price");
 
-Adding percentage of any column of numbers is simple `DynamicReports.col <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/column/ColumnBuilders.html>`_.percentageColumn(title, column)
+Adding percentage of any column of numbers is simple `DynamicReports.col <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/column/ColumnBuilders.html>`_.percentageColumn(title, column)
 
 .. code-block:: java
    :linenos:
 
    PercentageColumnBuilder pricePercColumn = col.percentageColumn("Price %", priceColumn);
 
-`DynamicReports.col <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/column/ColumnBuilders.html>`_.reportRowNumberColumn(title) creates a column that shows row number
+`DynamicReports.col <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/column/ColumnBuilders.html>`_.reportRowNumberColumn(title) creates a column that shows row number
 
 .. code-block:: java
    :linenos:
@@ -144,7 +144,7 @@ We continue by adding a group as shown below
 Step 5 : Subtotals
 ==================
 
-Now we can try to sum a column of numbers. Subtotal of sum is created through `DynamicReports.sbt <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/subtotal/SubtotalBuilders.html>`_.sum(column)
+Now we can try to sum a column of numbers. Subtotal of sum is created through `DynamicReports.sbt <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/subtotal/SubtotalBuilders.html>`_.sum(column)
 
 .. code-block:: java
    :linenos:
@@ -160,7 +160,7 @@ Method subtotalsAtFirstGroupFooter(...) will find first defined group and add su
 Step 6 : Charts
 ===============
 
-`DynamicReports.cht <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/chart/ChartBuilders.html>`_ provide methods for building charts. Category and series are required.
+`DynamicReports.cht <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/chart/ChartBuilders.html>`_ provide methods for building charts. Category and series are required.
 
 .. code-block:: java
    :linenos:
@@ -212,7 +212,7 @@ Step 8 : Hide subtotal
 Subtotal for the group notebook is unnecessary because contains only one row.
 We need to change the group declaration and set the boolean expression condition on which depends whether subtotal is printed.
 
-`DynamicReports.exp <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/expression/ExpressionBuilders.html>`_.printWhenGroupHasMoreThanOneRow(itemGroup) creates a boolean condition which returns true when itemGroup has more than one row.
+`DynamicReports.exp <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/expression/ExpressionBuilders.html>`_.printWhenGroupHasMoreThanOneRow(itemGroup) creates a boolean condition which returns true when itemGroup has more than one row.
 
 .. code-block:: java
    :linenos:
@@ -235,8 +235,8 @@ First define a title style.
                                .setVerticalAlignment(VerticalAlignment.MIDDLE)
                                .setFontSize(15);
 
-| `DynamicReports.cmp <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/component/ComponentBuilders.html>`_.image() creates an image component
-| `DynamicReports.cmp <https://srbala.com/apidocs/dr/core/net/sf/dynamicreports/report/builder/component/ComponentBuilders.html>`_.filler() creates an empty component
+| `DynamicReports.cmp <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/component/ComponentBuilders.html>`_.image() creates an image component
+| `DynamicReports.cmp <https://dynamicreports.github.io/apidocs/dr/core//net/sf/dynamicreports/report/builder/component/ComponentBuilders.html>`_.filler() creates an empty component
 
 .. code-block:: java
    :linenos:
